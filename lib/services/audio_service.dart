@@ -8,11 +8,12 @@ class AudioService {
   }
 
   void play() {
+    print("playing from audio service");
     _audioPlayer.play();
   }
 
-  void pause(){
-    _audioPlayer.pause();
+  void stop(){
+    _audioPlayer.stop();
   }
 
   void dispose() {
